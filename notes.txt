@@ -1,0 +1,84 @@
+COVID notes
+
+find date range
+- cut data at three months
+
+word vectors
+- transit
+- bike/ped
+- access to essential servies
+- personal effect of COVID
+- stay home
+- public space
+
+Next steps
+- create representative list of words for word vectors
+- send out spreadsheet of top 500
+- classify top 500 words using Manish's method
+- join all classifications and send out
+- create topic word lists
+- send list of five topics for approval
+- score tweets
+- send out representative tweets
+- probably zone of influence is 500 sqkm
+- look for commonality of tweets
+- check similar words to load and flow and docked
+
+- check Moran's I for different times; i.e. split by months
+-- or plot curbside sentiment vs. time
+
+- section 5.1
+- NY, Toronto, San Fran, Vancouver
+-- maps of April, May, June
+-- temporal plots - Moran's I for Toronto and NY by month - Figure 6 (send to Manish)
+
+- split 5.2 into 3 sections for 3 concepts
+-- link back to intro
+-- limit to 3-5 tweets for quotes
+
+Paper
+- little work in introduction
+- little work in 2.3
+- all of 3 - similar to Irma paper
+- all of 4 - similar to Irma paper
+- if too much, put parts of 3 and 4 in appendix
+- "the flexibility of the street"
+
+- send Figures 3 and 5 reorganized
+
+** next steps **
+- only use 1 April to 1 July
+- check numbers of tweets overall and in just 8 cities
+
+** read top 500 tweets
+- code for topics identified by Manish
+-- topics are a contest of space
+
+Revisions
+- Manish will put together policy document
+-- look for major policy themes
+--- also look for cross-cutting themes (eg. slow streets + opening sidewalk dining)
+- check "grounded theory" method
+-- theory comes from data
+-- try LDA to find topics
+-> output top 500 tweets for each of three topics
+--- Manish e-mailing words for vectors
+-> looks at reviews and some more tweets to get a sense paper is on track
+
+Competition for space
+- multiple uses for curbspace
+- a fifth category
+-- social distancing without a lot of more extra info
+-- restaurants saying they have more space for social distancing
+
+** test vector model **
+- find word vector list to find four topics:
+-- cycling
+--- ['cycling', 'bike', 'curbside', 'sidewalk']
+-- driving/parking
+--- ['parking', 'car', 'space']
+-- walking
+--- ['walking', 'sidewalk']
+-- business expansion
+--- patios, tents, tables, outdoor seating, curbside pickup, dining
+--- ['restaurant', 'patio', 'outdoor', 'seating', 'dining']
